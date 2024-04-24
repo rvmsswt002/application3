@@ -7,7 +7,7 @@ trigger:
 - none
 
 pool:
-  name: 'Private-Build-Agent'
+  name: 'default'
 
 steps:
 - script: echo Hello, world!
@@ -18,5 +18,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 - powershell: |
-    Start-Sleep -Seconds 300
+    Start-Sleep -Seconds 3
   displayName: 'Wait for 300 seconds'
