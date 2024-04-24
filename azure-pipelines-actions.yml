@@ -7,7 +7,8 @@ trigger:
 - none
 
 pool:
-  name: 'default'
+  #name: 'default'
+  name: 'Private-Build-Agent'
 
 stages:
 - stage: BuildAndScan
